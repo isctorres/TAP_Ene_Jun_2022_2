@@ -29,6 +29,7 @@ public class Main extends Application {
         mitBuscaminas = new MenuItem("Buscaminas");
         mitBuscaminas.setOnAction(event -> eventoLoteria(2));
 
+
         menCompetencia1.getItems().addAll(mitLoteria);
 
         menCompetencia2 = new Menu("Competencia 2");
